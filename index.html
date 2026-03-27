@@ -1,544 +1,743 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML5 Test Page</title>
-  </head>
-  <body>
-    <div id="top" role="document">
-      <header>
-        <h1>HTML5 Test Page</h1>
-        <p>This is a test page filled with common HTML elements to be used to provide visual feedback whilst building CSS systems and frameworks.</p>
-      </header>
-      <nav>
-        <ul>
-          <li>
-            <a href="#text">Text</a>
-            <ul>
-              <li><a href="#text__headings">Headings</a></li>
-              <li><a href="#text__paragraphs">Paragraphs</a></li>
-              <li><a href="#text__lists">Lists</a></li>
-              <li><a href="#text__blockquotes">Blockquotes</a></li>
-              <li><a href="#text__details">Details / Summary</a></li>
-              <li><a href="#text__address">Address</a></li>
-              <li><a href="#text__hr">Horizontal rules</a></li>
-              <li><a href="#text__tables">Tabular data</a></li>
-              <li><a href="#text__code">Code</a></li>
-              <li><a href="#text__inline">Inline elements</a></li>
-              <li><a href="#text__comments">HTML Comments</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#embedded">Embedded content</a>
-            <ul>
-              <li><a href="#embedded__images">Images</a></li>
-              <li><a href="#embedded__bgimages">Background images</a></li>
-              <li><a href="#embedded__audio">Audio</a></li>
-              <li><a href="#embedded__video">Video</a></li>
-              <li><a href="#embedded__canvas">Canvas</a></li>
-              <li><a href="#embedded__meter">Meter</a></li>
-              <li><a href="#embedded__progress">Progress</a></li>
-              <li><a href="#embedded__svg">Inline SVG</a></li>
-              <li><a href="#embedded__iframe">IFrames</a></li>
-              <li><a href="#embedded__embed">Embed</a></li>
-              <li><a href="#embedded__object">Object</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="#forms">Form elements</a>
-            <ul>
-              <li><a href="#forms__input">Input fields</a></li>
-              <li><a href="#forms__select">Select menus</a></li>
-              <li><a href="#forms__checkbox">Checkboxes</a></li>
-              <li><a href="#forms__radio">Radio buttons</a></li>
-              <li><a href="#forms__textareas">Textareas</a></li>
-              <li><a href="#forms__html5">HTML5 inputs</a></li>
-              <li><a href="#forms__action">Action buttons</a></li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
-      <main>
-        <section id="text">
-          <header><h1>Text</h1></header>
-          <article id="text__headings">
-            <header>
-              <h2>Headings</h2>
-            </header>
-            <div>
-              <h1>Heading 1</h1>
-              <h2>Heading 2</h2>
-              <h3>Heading 3</h3>
-              <h4>Heading 4</h4>
-              <h5>Heading 5</h5>
-              <h6>Heading 6</h6>
-            </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="text__paragraphs">
-            <header><h2>Paragraphs</h2></header>
-            <div>
-              <p>A paragraph (from the Greek paragraphos, “to write beside” or “written beside”) is a self-contained unit of a discourse in writing dealing with a particular point or idea. A paragraph consists of one or more sentences. Though not required by the syntax of any language, paragraphs are usually an expected part of formal writing, used to organize longer prose.</p>
-            </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="text__lists">
-            <header><h2>Lists</h2></header>
-            <div>
-              <h3>Definition list</h3>
-              <dl>
-                <dt>Definition List Title</dt>
-                <dd>This is a definition list division.</dd>
-              </dl>
-              <h3>Ordered List</h3>
-              <ol type="1">
-                <li>List Item 1</li>
-                <li>
-                  List Item 2
-                  <ol type="A">
-                    <li>List Item 1</li>
-                    <li>
-                      List Item 2
-                      <ol type="a">
-                        <li>List Item 1</li>
-                        <li>
-                          List Item 2
-                          <ol type="I">
-                            <li>List Item 1</li>
-                            <li>
-                              List Item 2
-                              <ol type="i">
-                                <li>List Item 1</li>
-                                <li>List Item 2</li>
-                                <li>List Item 3</li>
-                              </ol>
-                            </li>
-                            <li>List Item 3</li>
-                          </ol>
-                        </li>
-                        <li>List Item 3</li>
-                      </ol>
-                    </li>
-                    <li>List Item 3</li>
-                  </ol>
-                </li>
-                <li>List Item 3</li>
-              </ol>
-              <h3>Unordered List</h3>
-              <ul>
-                <li>List Item 1</li>
-                <li>
-                  List Item 2
-                  <ul>
-                    <li>List Item 1</li>
-                    <li>
-                      List Item 2
-                      <ul>
-                        <li>List Item 1</li>
-                        <li>
-                          List Item 2
-                          <ul>
-                            <li>List Item 1</li>
-                            <li>
-                              List Item 2
-                              <ul>
-                                <li>List Item 1</li>
-                                <li>List Item 2</li>
-                                <li>List Item 3</li>
-                              </ul>
-                            </li>
-                            <li>List Item 3</li>
-                          </ul>
-                        </li>
-                        <li>List Item 3</li>
-                      </ul>
-                    </li>
-                    <li>List Item 3</li>
-                  </ul>
-                </li>
-                <li>List Item 3</li>
-              </ul>
-            </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="text__blockquotes">
-            <header><h2>Blockquotes</h2></header>
-            <div>
-              <blockquote>
-                <p>A block quotation (also known as a long quotation or extract) is a quotation in a written document, that is set off from the main text as a paragraph, or block of text.</p>
-                <p>It is typically distinguished visually using indentation and a different typeface or smaller size quotation. It may or may not include a citation, usually placed at the bottom.</p>
-                <cite><a href="#!">Said no one, ever.</a></cite>
-              </blockquote>
-            </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="text__details">
-            <header><h2>Details / Summary</h2></header>
-            <details>
-              <summary>Expand for details</summary>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum, odio! Odio natus ullam ad quaerat, eaque necessitatibus, aliquid distinctio similique voluptatibus dicta consequuntur animi. Quaerat facilis quidem unde eos! Ipsa.</p>
-            </details>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="text__address">
-            <header><h2>Address</h2></header>
-            <address>
-              Written by <a href="mailto:webmaster@example.com">Jon Doe</a>.<br>
-              Visit us at:<br>
-              Example.com<br>
-              Box 564, Disneyland<br>
-              USA
-            </address>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="text__hr">
-            <header><h2>Horizontal rules</h2></header>
-            <div>
-              <hr>
-            </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="text__tables">
-            <header><h2>Tabular data</h2></header>
-            <table>
-              <caption>Table Caption</caption>
-              <thead>
-                <tr>
-                  <th>Table Heading 1</th>
-                  <th>Table Heading 2</th>
-                  <th>Table Heading 3</th>
-                  <th>Table Heading 4</th>
-                  <th>Table Heading 5</th>
-                </tr>
-              </thead>
-              <tfoot>
-                <tr>
-                  <th>Table Footer 1</th>
-                  <th>Table Footer 2</th>
-                  <th>Table Footer 3</th>
-                  <th>Table Footer 4</th>
-                  <th>Table Footer 5</th>
-                </tr>
-              </tfoot>
-              <tbody>
-                <tr>
-                  <td>Table Cell 1</td>
-                  <td>Table Cell 2</td>
-                  <td>Table Cell 3</td>
-                  <td>Table Cell 4</td>
-                  <td>Table Cell 5</td>
-                </tr>
-                <tr>
-                  <td>Table Cell 1</td>
-                  <td>Table Cell 2</td>
-                  <td>Table Cell 3</td>
-                  <td>Table Cell 4</td>
-                  <td>Table Cell 5</td>
-                </tr>
-                <tr>
-                  <td>Table Cell 1</td>
-                  <td>Table Cell 2</td>
-                  <td>Table Cell 3</td>
-                  <td>Table Cell 4</td>
-                  <td>Table Cell 5</td>
-                </tr>
-                <tr>
-                  <td>Table Cell 1</td>
-                  <td>Table Cell 2</td>
-                  <td>Table Cell 3</td>
-                  <td>Table Cell 4</td>
-                  <td>Table Cell 5</td>
-                </tr>
-              </tbody>
-            </table>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="text__code">
-            <header><h2>Code</h2></header>
-            <div>
-              <p><strong>Keyboard input:</strong> <kbd>Cmd</kbd></p>
-              <p><strong>Inline code:</strong> <code>&lt;div&gt;code&lt;/div&gt;</code></p>
-              <p><strong>Sample output:</strong> <samp>This is sample output from a computer program.</samp></p>
-              <h2>Pre-formatted text</h2>
-              <pre>P R E F O R M A T T E D T E X T
-  ! " # $ % &amp; ' ( ) * + , - . /
-  0 1 2 3 4 5 6 7 8 9 : ; &lt; = &gt; ?
-  @ A B C D E F G H I J K L M N O
-  P Q R S T U V W X Y Z [ \ ] ^ _
-  ` a b c d e f g h i j k l m n o
-  p q r s t u v w x y z { | } ~ </pre>
-            </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="text__inline">
-            <header><h2>Inline elements</h2></header>
-            <div>
-              <p><a href="#!">This is a text link</a>.</p>
-              <p><strong>Strong is used to indicate strong importance.</strong></p>
-              <p><em>This text has added emphasis.</em></p>
-              <p>The <b>b element</b> is stylistically different text from normal text, without any special importance.</p>
-              <p>The <i>i element</i> is text that is offset from the normal text.</p>
-              <p>The <u>u element</u> is text with an unarticulated, though explicitly rendered, non-textual annotation.</p>
-              <p><del>This text is deleted</del> and <ins>This text is inserted</ins>.</p>
-              <p><s>This text has a strikethrough</s>.</p>
-              <p>Superscript<sup>®</sup>.</p>
-              <p>Subscript for things like H<sub>2</sub>O.</p>
-              <p><small>This small text is small for fine print, etc.</small></p>
-              <p>Abbreviation: <abbr title="HyperText Markup Language">HTML</abbr></p>
-              <p><q cite="https://developer.mozilla.org/en-US/docs/HTML/Element/q">This text is a short inline quotation.</q></p>
-              <p><cite>This is a citation.</cite></p>
-              <p>The <dfn>dfn element</dfn> indicates a definition.</p>
-              <p>The <mark>mark element</mark> indicates a highlight.</p>
-              <p>The <var>variable element</var>, such as <var>x</var> = <var>y</var>.</p>
-              <p>The time element: <time datetime="2013-04-06T12:32+00:00">2 weeks ago</time></p>
-            </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="text__comments">
-            <header><h2>HTML Comments</h2></header>
-            <div>
-              <p>There is comment here: <!--This comment should not be displayed--></p>
-              <p>There is a comment spanning multiple tags and lines below here.</p>
-              <!--<p><a href="#!">This is a text link. But it should not be displayed in a comment</a>.</p>
-              <p><strong>Strong is used to indicate strong importance. But, it should not be displayed in a comment</strong></p>
-              <p><em>This text has added emphasis. But, it should not be displayed in a comment</em></p>-->
-            </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-        </section>
-        <section id="embedded">
-          <header><h1>Embedded content</h1></header>
-          <article id="embedded__images">
-            <header><h2>Images</h2></header>
-            <div>
-              <h3>Plain <code>&lt;img&gt;</code> element</h3>
-              <p><img src="https://picsum.photos/480/480" alt="Photo"></p>
-              <h3><code>&lt;figure&gt;</code> element with <code>&lt;img&gt;</code> element</h3>
-              <figure><img src="https://picsum.photos/420/420" alt="Photo"></figure>
-              <h3><code>&lt;figure&gt;</code> element with <code>&lt;img&gt;</code> and <code>&lt;figcaption&gt;</code> elements</h3>
-              <figure>
-                <img src="https://picsum.photos/420/420" alt="Photo">
-                <figcaption>Here is a caption for this image.</figcaption>
-              </figure>
-              <h3><code>&lt;figure&gt;</code> element with a <code>&lt;picture&gt;</code> element</h3>
-              <figure>
-                <picture>
-                  <source srcset="https://picsum.photos/800/800"
-                    media="(min-width: 800px)">
-                  <img src="https://picsum.photos/420/420" alt="Photo" />
-                </picture>
-              </figure>
-            </div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="embedded__bgimages">
-            <header><h2>Background images</h2></header>
-            <div style="background-image:url('https://picsum.photos/300/300'); width:300px; height: 300px;"></div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="embedded__audio">
-            <header><h2>Audio</h2></header>
-            <div><audio controls="">audio</audio></div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="embedded__video">
-            <header><h2>Video</h2></header>
-            <div><video controls="">video</video></div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="embedded__canvas">
-            <header><h2>Canvas</h2></header>
-            <div><canvas>canvas</canvas></div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="embedded__meter">
-            <header><h2>Meter</h2></header>
-            <div><meter value="2" min="0" max="10">2 out of 10</meter></div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="embedded__progress">
-            <header><h2>Progress</h2></header>
-            <div><progress>progress</progress></div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="embedded__svg">
-            <header><h2>Inline SVG</h2></header>
-            <div><svg width="100px" height="100px"><circle cx="100" cy="100" r="100" fill="#1fa3ec"></circle></svg></div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="embedded__iframe">
-            <header><h2>IFrame</h2></header>
-            <div><iframe src="index.html" height="300"></iframe></div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="embedded__embed">
-            <header><h2>Embed</h2></header>
-            <div><embed src="index.html" height="300"></div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-          <article id="embedded__object">
-            <header><h2>Object</h2></header>
-            <div><object data="index.html" height="300"></object></div>
-            <footer><p><a href="#top">[Top]</a></p></footer>
-          </article>
-        </section>
-        <section id="forms">
-          <header><h1>Form elements</h1></header>
-          <form>
-            <fieldset id="forms__input">
-              <legend>Input fields</legend>
-              <p>
-                <label for="input__text">Text Input</label>
-                <input id="input__text" type="text" placeholder="Text Input">
-              </p>
-              <p>
-                <label for="input__password">Password</label>
-                <input id="input__password" type="password" placeholder="Type your Password">
-              </p>
-              <p>
-                <label for="input__webaddress">Web Address</label>
-                <input id="input__webaddress" type="url" placeholder="https://yoursite.com">
-              </p>
-              <p>
-                <label for="input__emailaddress">Email Address</label>
-                <input id="input__emailaddress" type="email" placeholder="name@email.com">
-              </p>
-              <p>
-                <label for="input__phone">Phone Number</label>
-                <input id="input__phone" type="tel" placeholder="(999) 999-9999">
-              </p>
-              <p>
-                <label for="input__search">Search</label>
-                <input id="input__search" type="search" placeholder="Enter Search Term">
-              </p>
-              <p>
-                <label for="input__text2">Number Input</label>
-                <input id="input__text2" type="number" placeholder="Enter a Number">
-              </p>
-              <p>
-                <label for="input__file">File Input</label>
-                <input id="input__file" type="file">
-              </p>
-            </fieldset>
-            <p><a href="#top">[Top]</a></p>
-            <fieldset id="forms__select">
-              <legend>Select menus</legend>
-              <p>
-                <label for="select">Select</label>
-                <select id="select">
-                  <optgroup label="Option Group">
-                    <option>Option One</option>
-                    <option>Option Two</option>
-                    <option>Option Three</option>
-                  </optgroup>
-                </select>
-              </p>
-              <p>
-                <label for="select_multiple">Select (multiple)</label>
-                <select id="select_multiple" multiple="multiple">
-                  <optgroup label="Option Group">
-                    <option>Option One</option>
-                    <option>Option Two</option>
-                    <option>Option Three</option>
-                  </optgroup>
-                </select>
-              </p>
-            </fieldset>
-            <p><a href="#top">[Top]</a></p>
-            <fieldset id="forms__checkbox">
-              <legend>Checkboxes</legend>
-              <ul>
-                <li><label for="checkbox1"><input id="checkbox1" name="checkbox" type="checkbox" checked="checked"> Choice A</label></li>
-                <li><label for="checkbox2"><input id="checkbox2" name="checkbox" type="checkbox"> Choice B</label></li>
-                <li><label for="checkbox3"><input id="checkbox3" name="checkbox" type="checkbox"> Choice C</label></li>
-              </ul>
-            </fieldset>
-            <p><a href="#top">[Top]</a></p>
-            <fieldset id="forms__radio">
-              <legend>Radio buttons</legend>
-              <ul>
-                <li><label for="radio1"><input id="radio1" name="radio" type="radio" checked="checked"> Option 1</label></li>
-                <li><label for="radio2"><input id="radio2" name="radio" type="radio"> Option 2</label></li>
-                <li><label for="radio3"><input id="radio3" name="radio" type="radio"> Option 3</label></li>
-              </ul>
-            </fieldset>
-            <p><a href="#top">[Top]</a></p>
-            <fieldset id="forms__textareas">
-              <legend>Textareas</legend>
-              <p>
-                <label for="textarea">Textarea</label>
-                <textarea id="textarea" rows="8" cols="48" placeholder="Enter your message here"></textarea>
-              </p>
-            </fieldset>
-            <p><a href="#top">[Top]</a></p>
-            <fieldset id="forms__html5">
-              <legend>HTML5 inputs</legend>
-              <p>
-                <label for="ic">Color input</label>
-                <input type="color" id="ic" value="#000000">
-              </p>
-              <p>
-                <label for="in">Number input</label>
-                <input type="number" id="in" min="0" max="10" value="5">
-              </p>
-              <p>
-                <label for="ir">Range input</label>
-                <input type="range" id="ir" value="10">
-              </p>
-              <p>
-                <label for="idd">Date input</label>
-                <input type="date" id="idd" value="1970-01-01">
-              </p>
-              <p>
-                <label for="idm">Month input</label>
-                <input type="month" id="idm" value="1970-01">
-              </p>
-              <p>
-                <label for="idw">Week input</label>
-                <input type="week" id="idw" value="1970-W01">
-              </p>
-              <p>
-                <label for="idt">Time input</label>
-                <input type="time" id="idt" name="idt" min="00:00" max="24:00">
-              </p>
-              <p>
-                <label for="idtl">Datetime-local input</label>
-                <input type="datetime-local" id="idtl" value="1970-01-01T00:00">
-              </p>
-              <p>
-                <label for="idl">Datalist</label>
-                <input type="text" id="idl" list="example-list">
-                <datalist id="example-list">
-                  <option value="Example #1" />
-                  <option value="Example #2" />
-                  <option value="Example #3" />
-                </datalist>
-              </p>
-            </fieldset>
-            <p><a href="#top">[Top]</a></p>
-            <fieldset id="forms__action">
-              <legend>Action buttons</legend>
-              <p>
-                <input type="submit" value="&lt;input type=submit&gt;">
-                <input type="button" value="&lt;input type=button&gt;">
-                <input type="reset" value="&lt;input type=reset&gt;">
-                <input type="submit" value="&lt;input disabled&gt;" disabled>
-              </p>
-              <p>
-                <button type="submit">&lt;button type=submit&gt;</button>
-                <button type="button">&lt;button type=button&gt;</button>
-                <button type="reset">&lt;button type=reset&gt;</button>
-                <button type="button" disabled>&lt;button disabled&gt;</button>
-              </p>
-            </fieldset>
-            <p><a href="#top">[Top]</a></p>
-          </form>
-        </section>
-      </main>
-      <footer>
-        <p>Made by <a href="http://twitter.com/cbracco">@cbracco</a>. Code on <a href="http://github.com/cbracco/html5-test-page">GitHub</a>.</p>
-      </footer>
-    </div>
-  </body>
+<head>
+  <link rel="icon" href="/favicon.ico?v=999">
+<meta charset="UTF-8">
+<title>Razoshi OS</title>
+
+<style>
+/* GENERAL */
+body {
+  background: #000;
+  color: #fff;
+  font-family: monospace;
+  margin: 0;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+/* LOGIN */
+#login {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 999;
+  transition: opacity 0.5s ease;
+}
+
+#login.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#login button {
+  padding: 15px 30px;
+  background: black;
+  border: 2px solid #00ff88;
+  color: #00ff88;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#login button:hover {
+  background: #00ff88;
+  color: black;
+  box-shadow: 0 0 20px #00ff88;
+}
+
+/* GRID BACKGROUND */
+body::before {
+  content: "";
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-image:
+    linear-gradient(rgba(0,255,0,0.12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,0,0.12) 1px, transparent 1px);
+  background-size: 40px 40px;
+  z-index: -2;
+}
+
+/* AVATAR & HEADER */
+.avatar {
+  margin-top: 70px;
+  border-radius: 50%;
+  border: 3px solid #00ff88;
+  box-shadow: 0 0 15px #00ff88;
+  width: 120px;
+}
+
+h1 {
+  font-size: 60px;
+  color: #00ff88;
+  text-shadow: 0 0 15px #00ff88;
+  margin-top: 90px;
+}
+
+.cursor {
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0% {opacity:1;}
+  50% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.bio {
+  color: #aaa;
+  margin-top: 10px;
+}
+
+/* LINKS */
+.links {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.button {
+  width: 260px;
+  padding: 15px;
+  border: 2px solid #00ff88;
+  color: #00ff88;
+  text-decoration: none;
+  background: #050505;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #00ff88;
+  color: black;
+  box-shadow: 0 0 20px #00ff88;
+}
+
+/* TERMINAL */
+.terminal {
+  width: 80%;
+  max-width: 700px;
+  margin: 60px auto;
+  border: 1px solid #00ff88;
+  padding: 20px;
+  background: #050505;
+  text-align: left;
+  box-shadow: 0 0 15px #00ff88;
+  overflow-y: auto;
+  max-height: 400px;
+  word-wrap: break-word;
+}
+
+.terminal span {
+  color: #00ff88;
+}
+
+/* VISITOR / CPU PANEL */
+#visitorPanel {
+  width: 80%;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #00ff88;
+  background: #050505;
+  color: #00ff88;
+  text-align: center;
+  font-family: monospace;
+}
+
+/* MUSIC PLAYER */
+.player {
+  margin: 40px auto;
+  width: 300px;
+  border: 1px solid #00ff88;
+  padding: 15px;
+  background: #050505;
+}
+
+.player button {
+  margin: 5px;
+  padding: 8px 12px;
+  background: black;
+  color: #00ff88;
+  border: 1px solid #00ff88;
+  cursor: pointer;
+}
+
+.player button:hover {
+  background: #00ff88;
+  color: black;
+}
+
+/* razoshi REPOS */
+.repos {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(220px,1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.repo {
+  border: 1px solid #00ff88;
+  padding: 20px;
+  background: #050505;
+}
+
+.repo:hover {
+  box-shadow: 0 0 20px #00ff88;
+}
+
+footer {
+  margin-top: 60px;
+  color: #00ff88;
+}
+
+/* MATRIX */
+canvas#matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/* MOUSE GLOW */
+#mouseGlow {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle, rgba(0,255,136,0.8) 0%, rgba(0,255,136,0) 70%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+.window {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  width: 300px;
+  background: #050505;
+  border: 2px solid #00ff88;
+  box-shadow: 0 0 15px #00ff88;
+  display: none;
+}
+
+.titlebar {
+  background: #00ff88;
+  color: black;
+  padding: 5px;
+  cursor: move;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  padding: 10px;
+}
+#loadingBar {
+  width: 0%;
+  height: 5px;
+  background: #00ff88;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: width 2s ease;
+}
+</style>
+</head>
+<body>
+  
+
+<!-- LOGIN SCREEN -->
+<div id="login">
+  <h1>Welcome to Razoshi OS</h1>
+  <button onclick="startOS()">Enter</button>
+  
+  <div id="loadingBar"></div>
+</div>
+
+<!-- AVATAR AND HEADER -->
+<img class="avatar" src="https://cdn.discordapp.com/avatars/1106891304849391656/2e3698c0ab7c452f5e4c40121705f12a.webp?size=128" alt="Razoshi Avatar">
+<h1>razoshi<span class="cursor">_</span></h1>
+<p class="bio">developer / scripts / network</p>
+
+<!-- LINKS -->
+<div class="links">
+  <a class="button" href="https://discord.gg/eqfSepRC" target="_blank">Razoshi's Brotherhood Discord Server</a>
+  <a class="button" href="https://github.com/onlyrazoshi" target="_blank">Razoshi's Github</a>
+  <a class="button" href="https://guns.lol/onlyrazoshi" target="_blank">Razoshi's gunz.lol</a>
+</div>
+
+  <!-- TERMINAL -->
+<div class="terminal" id="terminalLog"></div>
+
+<input id="cmdInput" placeholder="type a command"
+style="width:80%; max-width:700px; background:black; color:#00ff88; border:1px solid #00ff88; padding:10px; margin-top:10px;">
+
+<!-- VISITOR + CPU PANEL -->
+<div id="visitorPanel">
+  CPU Usage: <span id="cpuUsage">0%</span> | Guest: <span id="visitorInfo">loading...</span>
+  
+  <br>
+  
+  <span id="views">Visitors: loading...</span>
+</div>
+
+<!-- MUSIC PLAYER -->
+<div class="player">
+  <p id="trackName" style="color:#00ff88; margin-bottom:10px;"></p>
+  <div style="display:flex; align-items:center; gap:10px; justify-content:center; margin-bottom:10px;">
+    <button onclick="prevSong()">◀</button>
+    <button id="playBtn">▶</button>
+    <button onclick="nextSong()">▶▶</button>
+  </div>
+  <div style="margin:0 auto; background:#050505; border:1px solid #00ff88; height:8px; width:100%; max-width:300px; position:relative;">
+    <div id="progress" style="background:#00ff88; height:100%; width:0%;"></div>
+  </div>
+</div>
+
+<audio id="audio"></audio>
+
+<!-- razoshi repos -->
+<h2 style="color:#00ff88">github repos</h2>
+<div class="repos" id="repos"></div>
+
+<footer>
+  <p>site coded by pagoni hax & razoshi</p>
+  <p>Music by Death.Syndicate</p>
+</footer>
+
+<!-- MATRIX CANVAS -->
+<canvas id="matrix"></canvas>
+
+<!-- MOUSE GLOW -->
+<div id="mouseGlow"></div>
+
+<script>
+  
+/* LOGIN */
+function startOS(){
+  const login = document.getElementById("login");
+  const bar = document.getElementById("loadingBar");
+
+  bar.style.width = "100%"; 
+
+  setTimeout(()=>{
+    login.classList.add("hide");
+    setTimeout(()=>{ login.style.display="none"; }, 500);
+  }, 2000);
+}
+
+/* MATRIX */
+const canvas = document.getElementById("matrix");
+const ctx = canvas.getContext("2d");
+
+function resizeCanvas(){
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+window.addEventListener("resize", resizeCanvas);
+resizeCanvas();
+
+const letters = "12";
+const fontSize = 16;
+const columns = Math.floor(canvas.width / fontSize);
+const drops = Array(columns).fill(1);
+
+function drawMatrix(){
+  ctx.fillStyle = "rgba(0,0,0,0.05)";
+  ctx.fillRect(0,0,canvas.width,canvas.height);
+
+  ctx.fillStyle = "#00ff88";
+  ctx.font = fontSize + "px monospace";
+
+  for(let i=0;i<drops.length;i++){
+    const text = letters[Math.floor(Math.random() * letters.length)];
+    ctx.fillText(text, i*fontSize, drops[i]*fontSize);
+
+    if(drops[i]*fontSize > canvas.height && Math.random() > 0.975) drops[i] = 0;
+    drops[i]++;
+  }
+}
+
+/* MUSIC PLAYER */
+const playlist = [
+    { name: '9 Lives', url: 'https://files.catbox.moe/mer3g9.mp3' },
+    { name: 'Fuck The World', url: 'https://files.catbox.moe/w0f1xs.mp3' },
+    { name: 'Fuckboy Problem', url: 'https://files.catbox.moe/wywuwb.mp3' },
+    { name: 'Gives You Hell', url: 'https://files.catbox.moe/pps1oj.mp3' },
+    { name: 'Graveyard Shift', url: 'https://files.catbox.moe/4ls7sg.mp3'},
+    { name: 'Heartbeat Flatline', url: 'https://files.catbox.moe/h8trjw.mp3'},
+    { name: 'Im The King', url: 'https://files.catbox.moe/5z2sqn.mp3'},
+    { name: 'Jack and Sally (Remix)', url: 'https://files.catbox.moe/l63mb4.mp3'},
+    { name: 'Moya Lyubov - моя любовь', url: 'https://files.catbox.moe/4r4azv.mp3'},
+    { name: 'Schizo', url: 'https://files.catbox.moe/3tbkl9.mp3'},
+];
+
+let current = 0;
+const audio = document.getElementById("audio");
+const playBtn = document.getElementById("playBtn");
+const trackName = document.getElementById("trackName");
+const progress = document.getElementById("progress");
+
+audio.src = playlist[current].url;
+trackName.innerText = playlist[current].name;
+
+playBtn.addEventListener("click", () => {
+  if(audio.paused) audio.play();
+  else audio.pause();
+});
+
+audio.addEventListener("play", () => { playBtn.innerText = "⏸"; });
+audio.addEventListener("pause", () => { playBtn.innerText = "▶"; });
+
+audio.addEventListener("timeupdate", () => {
+  let pct = (audio.currentTime / audio.duration) * 100;
+  progress.style.width = pct + "%";
+});
+
+audio.addEventListener("ended", nextSong);
+
+function nextSong() {
+  current = (current + 1) % playlist.length;
+  audio.src = playlist[current].url;
+  audio.play().catch(()=>{});
+  trackName.innerText = playlist[current].name;
+}
+
+function prevSong() {
+  current = (current - 1 + playlist.length) % playlist.length;
+  audio.src = playlist[current].url;
+  audio.play().catch(()=>{});
+  trackName.innerText = playlist[current].name;
+}
+
+document.body.addEventListener("click", () => { audio.play().catch(()=>{}); }, { once: true });
+
+/* TERMINAL / GITHUB REPOS */
+document.addEventListener("DOMContentLoaded", () => {
+
+const terminal = document.getElementById("terminalLog");
+const input = document.getElementById("cmdInput");
+  let fs = {
+  "/": {
+    "readme.txt": "Welcome to Razoshi OS",
+    "notes.txt": "type ls",
+    "secret": {
+      "passwords.txt": "root: 1337"
+    }
+  }
+};
+
+let currentPath = "/";
+
+function getDir(path){
+  return path.split("/").filter(Boolean).reduce((dir, p) => dir[p], fs["/"]);
+}
+
+let history = [];
+let historyIndex = -1;
+
+input.addEventListener("keydown", (e) => {
+
+  if(e.key === "Enter"){
+    e.preventDefault();
+
+    const cmd = input.value.trim();
+
+    if(cmd !== ""){
+      history.push(cmd);
+      historyIndex = history.length;
+    }
+
+    logTerminal(cmd);
+if(cmd === "help"){
+  logTerminal("", "commands: help, whoami, clear, date, about, discord, github, ls, hack system");
+}
+
+else if(cmd === "ls"){
+  let dir = getDir(currentPath);
+
+  if(dir){
+    logTerminal("", Object.keys(dir).join("  "));
+  } else {
+    logTerminal("", "error reading directory");
+  }
+}
+  
+ else if(cmd.startsWith("cat ")){
+  let f = cmd.split(" ")[1];
+  let dir = getDir(currentPath);
+
+  if(dir && typeof dir[f] === "string"){
+    logTerminal("", dir[f]);
+  } else {
+    logTerminal("", "file not found");
+  }  
+}
+else if(cmd === "hack system"){
+  let i = 0;
+  let interval = setInterval(() => {
+    logTerminal("", "cracking password: " + Math.random().toString(36).substring(2,8));
+    i++;
+    if(i > 10){
+      clearInterval(interval);
+      logTerminal("", "[✓] password cracked: root_7391");
+    }
+  }, 200);
+}
+
+else if(cmd === "whoami"){
+  logTerminal("", "you are user 😄");
+}
+
+else if(cmd === "clear"){
+  terminal.innerHTML = "";
+}
+
+else if(cmd === "date"){
+  logTerminal("", new Date().toString());
+}
+
+else if(cmd === "about"){
+  logTerminal("", "Razoshi OS - custom web terminal 👾");
+}
+
+else if(cmd === "discord"){
+  window.open("https://discord.gg/eqfSepRC");
+}
+
+else if(cmd === "github"){
+  window.open("https://github.com/onlyrazoshi");
+}
+
+else{
+  logTerminal("", "command not found");
+}
+
+    input.value = "";
+  }
+
+  else if(e.key === "ArrowUp"){
+    if(historyIndex > 0){
+      historyIndex--;
+      input.value = history[historyIndex];
+    }
+  }
+
+  else if(e.key === "ArrowDown"){
+    if(historyIndex < history.length - 1){
+      historyIndex++;
+      input.value = history[historyIndex];
+    } else {
+      input.value = "";
+    }
+  }
+
+});
+
+function logTerminal(cmd, result){
+  const cmdP = document.createElement("p");
+  cmdP.innerHTML = `<span>$</span> ${cmd}`;
+  terminal.appendChild(cmdP);
+
+  if(result){
+    const resP = document.createElement("p");
+    resP.textContent = result;
+    terminal.appendChild(resP);
+  }
+
+  terminal.scrollTop = terminal.scrollHeight;
+}
+
+});
+
+// Fetch GitHub repos
+const repoContainer = document.getElementById("repos");
+  fetch("https://api.github.com/users/onlyrazoshi/repos")
+.then(res => res.json())
+.then(data => {
+
+  data.slice(0,6).forEach(repo => {
+
+    const div = document.createElement("div");
+    div.className = "repo";
+    div.innerHTML = `
+        <h3>${repo.name}</h3>
+        <p>${repo.description || "no description"}</p>
+        <a href="${repo.html_url}" target="_blank" style="color:#00ff88">view repo</a>
+    `;
+    repoContainer.appendChild(div);
+  });
+})
+.catch(err => logTerminal("error", "Could not fetch repos"));
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const cpuSpan = document.getElementById("cpuUsage");
+  const visitorInfoSpan = document.getElementById("visitorInfo");
+  const viewsSpan = document.getElementById("views");
+
+  // CPU
+  setInterval(()=>{
+    cpuSpan.innerText = Math.floor(Math.random()*100) + "%";
+  }, 1000);
+
+  // IP 
+ fetch("https://ipapi.co/json/")
+.then(res => res.json())
+.then(data => {
+  visitorInfoSpan.innerText =
+    data.ip + " — " + data.city + ", " + data.country_name;
+})
+.catch(() => {
+  visitorInfoSpan.innerText = "Guest user";
+});
+
+  // VISITOR COUNTER 
+  // ✅ LOCAL VISITOR COUNTER (100% working)
+let visits = localStorage.getItem("visits");
+
+if (!visits) {
+  visits = 1;
+} else {
+  visits = parseInt(visits) + 1;
+}
+
+localStorage.setItem("visits", visits);
+
+viewsSpan.innerText = "Visitors: " + visits;
+  
+/* SMOOTH MOUSE GLOW */
+const glow = document.getElementById("mouseGlow");
+let mouseX=0, mouseY=0, glowX=0, glowY=0;
+
+document.addEventListener("mousemove", e=>{
+  mouseX = e.clientX;
+  mouseY = e.clientY;
+});
+
+function animateGlow(){
+  glowX += (mouseX - glowX) * 0.2;
+  glowY += (mouseY - glowY) * 0.2;
+  glow.style.transform = `translate(${glowX}px, ${glowY}px) translate(-50%, -50%)`;
+  requestAnimationFrame(animateGlow);
+}
+animateGlow();
+document.addEventListener("DOMContentLoaded", () => {
+
+  const win = document.getElementById("myWindow");
+  const btn = document.getElementById("openBtn");
+
+  btn.addEventListener("click", () => {
+    win.style.display = "block";
+  });
+
+  // CLOSE
+  window.closeWindow = function() {
+    win.style.display = "none";
+  };
+
+  // DRAG
+  let isDragging = false;
+  let offsetX, offsetY;
+
+  const titlebar = win.querySelector(".titlebar");
+
+  titlebar.addEventListener("mousedown", (e) => {
+    isDragging = true;
+    offsetX = e.clientX - win.offsetLeft;
+    offsetY = e.clientY - win.offsetTop;
+  });
+
+  document.addEventListener("mousemove", (e) => {
+    if (isDragging) {
+      win.style.left = (e.clientX - offsetX) + "px";
+      win.style.top = (e.clientY - offsetY) + "px";
+    }
+  });
+
+  document.addEventListener("mouseup", () => {
+    isDragging = false;
+  });
+
+});
+
+  const fakeLines = [
+  "Initializing system...",
+  "Bypassing firewall...",
+  "Access granted.",
+  "Loading Razoshi OS modules...",
+  "Connected to dark network.",
+  "Welcome, user."
+];
+
+let lineIndex = 0;
+
+function typeEffect() {
+  const terminal = document.getElementById("terminalLog");
+
+  if (lineIndex >= fakeLines.length) return;
+
+  let text = fakeLines[lineIndex];
+  let i = 0;
+
+  let interval = setInterval(() => {
+    if (i < text.length) {
+      terminal.innerHTML += text.charAt(i);
+      i++;
+    } else {
+      terminal.innerHTML += "<br>";
+      clearInterval(interval);
+      lineIndex++;
+      setTimeout(typeEffect, 500);
+    }
+  }, 30);
+}
+  
+typeEffect();
+
+function animateMatrix() {
+  drawMatrix();
+  requestAnimationFrame(animateMatrix);
+}
+animateMatrix();
+  
+setInterval(()=>{
+  document.getElementById("status").innerText =
+    Math.random() > 0.2 ? "● online" : "● lagging...";
+}, 3000);
+
+window.onerror = function(msg, url, line){
+  console.log("Error:", msg, "Line:", line);
+  return true;
+};
+</script>
+
+  <div class="window" id="myWindow">
+  <div class="titlebar">
+    <span>My App</span>
+    <button onclick="closeWindow()">X</button>
+  </div>
+  <div class="content">
+    Hello from Razoshi OS 👾
+  </div>
+</div>
+
+<button id="openBtn" style="margin-top:20px;">
+  Open Window
+</button>
+  
+<p id="status" style="color:#00ff88; text-align:center;">● online</p>
+  
+</body>
 </html>
